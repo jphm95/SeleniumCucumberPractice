@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        gradle 'Gradle_8.12'  // Ajusta al nombre de tu instalación de Gradle en Jenkins
-        jdk 'Java_22'         // Ajusta al nombre de tu instalación de Java en Jenkins
+        gradle 'Gradle 8.12'  // Ajusta al nombre de tu instalación de Gradle en Jenkins
+        jdk '23.0.1'         // Ajusta al nombre de tu instalación de Java en Jenkins
     }
 
     stages {
