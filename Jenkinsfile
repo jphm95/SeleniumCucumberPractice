@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         gradle 'Gradle 8.12'  // Ajusta al nombre de tu instalación de Gradle en Jenkins
-        jdk '23.0.1'         // Ajusta al nombre de tu instalación de Java en Jenkins
+        jdk 'Java 23.0.1'         // Ajusta al nombre de tu instalación de Java en Jenkins
     }
 
     stages {
